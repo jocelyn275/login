@@ -1,0 +1,36 @@
+.login {
+    width: 90%;
+    max-width: 30rem;
+    margin: 2rem auto;
+    padding: 25px;
+}
+
+.actions {
+    text-align: center;
+}
+
+.login__background {
+    height: 500px;
+    min-height: 100vh;
+    background-image: url("/Users/focalagent/React/login/public/assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login_title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+}
+
+.login_desc {
+    font-size: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+    padding-top: 10px;
+}
